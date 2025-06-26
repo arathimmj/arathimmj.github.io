@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+body{
+    line-height: 1.8;
+    color: #898fa1;
+    font-size: 15px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+a{
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+/* img{
+    width: 100%;
+} */
+small{
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.navbar{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.155);
+}
+
+.navbar .nav-link{
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgb(143, 143, 143);
+}
+
+.navbar .nav-link.active{
+    color: rgb(62, 95, 62);
+}
+
+.logo-text{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+}
+.margins{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.logo-text{
+    font-size: 22px;
+    text-transform: uppercase;
+    /* display:flex; */
+}
+#home{
+    background: linear-gradient(rgba(255, 255, 255), rgba(255, 255, 255, 0.1)), url(../images/img14.JPG);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    display: flex;
+    align-items: center;
+}
+#home h1{
+    font-weight: 600;
+}
+#home p{
+    font-size: larger;
+    max-width: 900px;
+    margin: 18px auto;
+}
+
+.btn{
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    border-radius: 0;
+}
+
+.btn-brand{
+    background-color: black;
+    color: white;
+}
+.btn-brand:hover{
+    background-color: rgb(53, 60, 53);
+    color: white;
+}
+.section-intro{
+    text-align: center;
+}
+.section-intro .hline{
+    width: 120px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin: 16px auto 0 auto;
+}
+.custom-card{
+    height: 280px; /* specify your desired height */
+      overflow: hidden;
+}
