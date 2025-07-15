@@ -100,7 +100,20 @@ section{
     background-color: rgb(0, 0, 0);
     margin: 16px auto 0 auto;
 }
-.custom-card{
-    height: 280px; /* specify your desired height */
-      overflow: hidden;
+
+.carousel-item img {
+    object-fit: cover;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .carousel-item img {
+    height: 300px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .carousel-item img {
+    height: 200px;
+    }
 }
